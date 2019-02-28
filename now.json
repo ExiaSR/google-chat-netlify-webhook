@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "hangout-chat-netlify-webhook",
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "index.js",
+      "methods": ["POST"]
+    }
+  ],
+  "env": {
+    "HANGOUT_CHAT_WEBHOOK_URL": "@hangout-chat-webhook-url"
+  }
+}

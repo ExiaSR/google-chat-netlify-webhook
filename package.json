@@ -1,0 +1,18 @@
+{
+  "name": "hangout-chat-netlify-webhook",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0"
+  }
+}
